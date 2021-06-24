@@ -18,7 +18,7 @@ export default function Homepage() {
     const handleAddRanking=()=>{
         const {name,description,ranking,format}=state;
         axios
-        .post("https://cricketify-server.herokuapp.com/api/ranking/add",{name,description,ranking,format})
+        .post("https://cricketify-backend.herokuapp.com/api/ranking/add",{name,description,ranking,format})
         .then(result=>{
             const {dbData} = result.data;
             if(dbData.format==="Test"){
