@@ -64,7 +64,7 @@ export default function HomePage() {
             <div className="hero-bg">
                 <div className="overlay"></div>
             <div className="hero-content">
-            <h1 className="hero-heading">Wolcome to cricketing world</h1>
+            <h1 className="hero-heading">Welcome to cricketing world</h1>
             <p className="hero-text">Share, Connect and enjoy!</p>
             </div>
         </div>
