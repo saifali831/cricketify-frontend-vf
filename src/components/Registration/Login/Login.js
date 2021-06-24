@@ -49,7 +49,7 @@ export default function Login(props) {
         <div className="container make-on-top pt-3">
             <div className="row">
                 <div className="col-12 col-md-6 col-lg-6">
-                    <h3 className="main-heading">Conecting people with interest in cricket</h3>
+                    <h3 className="main-heading">Connecting people with interest in cricket</h3>
                     <p className="primary-text">Post stories, Chat with cricket nerds, explore fixtures and much more!</p>
                     <img src={bgImg} className="bg-img"/>
                 </div>
